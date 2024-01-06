@@ -1,4 +1,10 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+require('dotenv').config();
 
-module.exports = nextConfig
+const nextConfig = {
+  env: {
+    MyString: 'string',
+    StartTime: Date.now().toString()
+  },
+};
+
+module.exports = nextConfig;
