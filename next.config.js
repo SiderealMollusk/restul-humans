@@ -1,10 +1,10 @@
-require('dotenv').config();
+/** @type {import('next').NextConfig} */
 
 const nextConfig = {
-  env: {
-    MyString: 'string',
-    StartTime: Date.now().toString()
-  },
-};
+    env: {
+        MY_MSG: 'Hello from next.config.js!',
+        SERVER_START_TIME: new Date().toString(),
+    },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
