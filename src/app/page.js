@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import StartUpTime from '../components/StartUpTime.js'
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Virgil Remix&nbsp;
-          <code className={styles.code}>deploy to render.com</code>
+          <StartUpTime />
         </p>
         <div>
           <a
