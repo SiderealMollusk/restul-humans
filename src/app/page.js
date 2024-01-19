@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          Virgil Remix API&nbsp;
+          Virgil (Remix API)&nbsp;
           <code className={styles.code}>deploy to render.com</code>
         </p>
         <div>
